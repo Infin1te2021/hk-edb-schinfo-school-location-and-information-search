@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH SCHOOL INFORMATION"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name, Id, Address, Telephone and Website are available"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hint: If you want to enter 'SPACE', remember to replace it to _ "
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="" />
+
+    <Button
+        android:id="@+id/Search_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School Search"
+        app:icon="@android:drawable/ic_search_category_default" />
+
+    <Button
+        android:id="@+id/Locate_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        app:icon="@android:drawable/ic_dialog_map" />
+
+    <Button
+        android:id="@+id/Reset_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        app:icon="@android:drawable/ic_menu_manage" />
+
+
+</LinearLayout>
+
